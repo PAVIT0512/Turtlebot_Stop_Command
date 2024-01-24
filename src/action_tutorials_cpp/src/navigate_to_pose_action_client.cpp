@@ -38,7 +38,7 @@ public:
       rclcpp::shutdown();
     }
 
-    RCLCPP_INFO(this->get_logger(), "Cancelling all goals");
+    RCLCPP_INFO(this->get_logger(),"Stopping the bot");
 
   
     this->client_ptr_->async_cancel_all_goals();
