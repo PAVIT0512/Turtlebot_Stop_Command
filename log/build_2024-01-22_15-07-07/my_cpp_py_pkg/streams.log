@@ -1,0 +1,91 @@
+[0.270s] Invoking command in '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pavitpc/ros2_ws/src/my_cpp_py_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pavitpc/ros2_ws/install/my_cpp_py_pkg
+[0.371s] -- The C compiler identification is GNU 11.4.0
+[0.459s] -- The CXX compiler identification is GNU 11.4.0
+[0.470s] -- Detecting C compiler ABI info
+[0.679s] -- Detecting C compiler ABI info - done
+[0.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.691s] -- Detecting C compile features - done
+[0.696s] -- Detecting CXX compiler ABI info
+[0.826s] -- Detecting CXX compiler ABI info - done
+[0.840s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.841s] -- Detecting CXX compile features
+[0.842s] -- Detecting CXX compile features - done
+[0.846s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.130s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.235s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.355s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.449s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.458s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.659s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.664s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.730s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.748s] -- Looking for pthread.h
+[1.864s] -- Looking for pthread.h - found
+[1.864s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.980s] -- Found Threads: TRUE  
+[2.259s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[2.402s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.564s] -- Configured cppcheck include dirs: /home/pavitpc/ros2_ws/src/my_cpp_py_pkg/include
+[2.564s] -- Configured cppcheck exclude dirs and/or files: 
+[2.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.567s] -- Added test 'lint_cmake' to check CMake code style
+[2.568s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.571s] -- Added test 'uncrustify' to check C / C++ code style
+[2.571s] -- Configured uncrustify additional arguments: 
+[2.572s] -- Added test 'xmllint' to check XML markup files
+[2.576s] -- Configuring done
+[2.598s] -- Generating done
+[2.602s] -- Build files have been written to: /home/pavitpc/ros2_ws/build/my_cpp_py_pkg
+[2.618s] Invoked command in '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pavitpc/ros2_ws/src/my_cpp_py_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pavitpc/ros2_ws/install/my_cpp_py_pkg
+[2.620s] Invoking command in '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[2.711s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o[0m
+[2.713s] [ 50%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[3.368s] running egg_info
+[3.370s] creating my_cpp_py_pkg.egg-info
+[3.370s] writing my_cpp_py_pkg.egg-info/PKG-INFO
+[3.370s] writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+[3.371s] writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+[3.371s] writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[3.374s] reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[3.376s] writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[3.422s] [ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[9.325s] [100%] [32m[1mLinking CXX executable cpp_exe[0m
+[10.698s] [100%] Built target cpp_exe
+[10.723s] Invoked command in '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[10.835s] Invoking command in '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/my_cpp_py_pkg
+[10.862s] -- Install configuration: ""
+[10.881s] -- Execute custom install script
+[10.881s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/libs/my_cpp_py_pkg/cpp_exe
+[10.983s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh
+[11.020s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv
+[11.034s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[11.048s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.062s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.075s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[11.089s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/__init__.py
+[11.103s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/my_node.py
+[11.116s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/stop_node.py
+[11.145s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/libs/my_cpp_py_pkg/py_node.py
+[11.159s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+[11.172s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+[11.245s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+[11.259s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+[11.272s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+[11.286s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+[11.300s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+[11.331s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+[11.345s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+[11.359s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+[11.373s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+[11.386s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+[11.409s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+[11.432s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+[11.446s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml
+[12.205s] Listing '/home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg'...
+[12.214s] Invoked command in '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/my_cpp_py_pkg

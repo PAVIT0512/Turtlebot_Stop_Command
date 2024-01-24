@@ -1,0 +1,16 @@
+[01m[K/home/pavitpc/ros2_ws/src/action_tutorials_cpp/src/navigate_to_pose_action_client.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::NavigateToPoseActionClient::cancel_goals()[m[K’:
+[01m[K/home/pavitpc/ros2_ws/src/action_tutorials_cpp/src/navigate_to_pose_action_client.cpp:44:72:[m[K [01;31m[Kerror: [m[K‘[01m[KCancelGoalsOptions[m[K’ is not a member of ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>[m[K’
+   44 | ncel_goals_options = rclcpp_action::Client<NavigateToPose>::[01;31m[KCancelGoalsOptions[m[K();
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/pavitpc/ros2_ws/src/action_tutorials_cpp/src/navigate_to_pose_action_client.cpp:46:76:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   46 | d::bind(&NavigateToPoseActionClient::goal_response_callback, this, [01;31m[K_1[m[K);
+      |                                                                    [01;31m[K^~[m[K
+      |                                                                    [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/home/pavitpc/ros2_ws/src/action_tutorials_cpp/src/navigate_to_pose_action_client.cpp:1[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/navigate_to_pose_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

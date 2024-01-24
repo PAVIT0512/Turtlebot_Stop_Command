@@ -1,0 +1,76 @@
+[3.212s] Invoking command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/pavitpc/ros2_ws/src/action_tutorials_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pavitpc/ros2_ws/install/action_tutorials_cpp
+[7.054s] -- The C compiler identification is GNU 11.4.0
+[7.737s] -- The CXX compiler identification is GNU 11.4.0
+[7.938s] -- Detecting C compiler ABI info
+[9.020s] -- Detecting C compiler ABI info - done
+[9.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.160s] -- Detecting C compile features
+[9.227s] -- Detecting C compile features - done
+[9.267s] -- Detecting CXX compiler ABI info
+[10.462s] -- Detecting CXX compiler ABI info - done
+[10.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.523s] -- Detecting CXX compile features
+[10.527s] -- Detecting CXX compile features - done
+[10.782s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.732s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[14.771s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[15.620s] -- Found action_tutorials_interfaces: 0.20.3 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)
+[16.985s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[17.148s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[18.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.814s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[23.039s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[23.086s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[24.054s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[24.350s] -- Looking for pthread.h
+[25.441s] -- Looking for pthread.h - found
+[25.446s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.119s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[26.123s] -- Found Threads: TRUE  
+[28.410s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[28.788s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[29.848s] -- Found nav2_msgs: 1.1.12 (/opt/ros/humble/share/nav2_msgs/cmake)
+[33.688s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[34.764s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[34.767s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pavitpc/ros2_ws/src/action_tutorials_cpp/include>
+[34.767s] -- Configured cppcheck exclude dirs and/or files: 
+[34.787s] -- Added test 'lint_cmake' to check CMake code style
+[34.800s] -- Added test 'uncrustify' to check C / C++ code style
+[34.801s] -- Configured uncrustify additional arguments: 
+[34.811s] -- Added test 'xmllint' to check XML markup files
+[34.838s] -- Configuring done
+[35.020s] -- Generating done
+[35.036s] -- Build files have been written to: /home/pavitpc/ros2_ws/build/action_tutorials_cpp
+[35.147s] Invoked command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/pavitpc/ros2_ws/src/action_tutorials_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pavitpc/ros2_ws/install/action_tutorials_cpp
+[35.151s] Invoking command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[35.637s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/navigate_to_pose_action_client.cpp.o[0m
+[82.930s] [ 50%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[85.627s] [ 50%] Built target action_client
+[85.838s] [ 75%] [32mBuilding CXX object CMakeFiles/navigate_to_pose_action_client.dir/rclcpp_components/node_main_navigate_to_pose_action_client.cpp.o[0m
+[119.844s] [100%] [32m[1mLinking CXX executable navigate_to_pose_action_client[0m
+[121.463s] [100%] Built target navigate_to_pose_action_client
+[121.573s] Invoked command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[121.971s] Invoking command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/action_tutorials_cpp
+[122.100s] -- Install configuration: ""
+[122.101s] -- Execute custom install script
+[122.101s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/navigate_to_pose_action_client
+[122.164s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so
+[122.248s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[122.318s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[122.428s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[122.528s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[122.603s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[122.698s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[122.800s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[122.850s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[123.001s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[123.069s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[123.162s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[123.218s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[123.348s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[123.456s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[123.526s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[123.654s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[123.782s] Invoked command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/action_tutorials_cpp

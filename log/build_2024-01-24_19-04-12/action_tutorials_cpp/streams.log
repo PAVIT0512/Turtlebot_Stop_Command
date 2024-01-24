@@ -1,0 +1,34 @@
+[3.316s] Invoking command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[8.200s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.203s] -- Found action_tutorials_interfaces: 0.20.3 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)
+[8.211s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.211s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.211s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.118s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[11.951s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.994s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[12.813s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[15.792s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[16.176s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[17.340s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.877s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.901s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pavitpc/ros2_ws/src/action_tutorials_cpp/include>
+[18.910s] -- Configured cppcheck exclude dirs and/or files: 
+[18.930s] -- Added test 'lint_cmake' to check CMake code style
+[18.948s] -- Added test 'uncrustify' to check C / C++ code style
+[18.948s] -- Configured uncrustify additional arguments: 
+[18.950s] -- Added test 'xmllint' to check XML markup files
+[18.956s] -- Configuring done
+[19.406s] -- Generating done
+[19.433s] -- Build files have been written to: /home/pavitpc/ros2_ws/build/action_tutorials_cpp
+[20.219s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/navigate_to_pose_action_client.cpp.o[0m
+[23.831s] [01m[K/home/pavitpc/ros2_ws/src/action_tutorials_cpp/src/navigate_to_pose_action_client.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Knav2_msgs/action/navigate_to_pose.hpp: No such file or directory
+[23.831s]     7 | #include [01;31m[K"nav2_msgs/action/navigate_to_pose.hpp"[m[K  // Include the correct header
+[23.831s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.832s] compilation terminated.
+[23.884s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/navigate_to_pose_action_client.cpp.o] Error 1
+[23.890s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_client.dir/all] Error 2
+[23.891s] gmake: *** [Makefile:146: all] Error 2
+[23.904s] Invoked command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/action_tutorials_cpp -- -j4 -l4

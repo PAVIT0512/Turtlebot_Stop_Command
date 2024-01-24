@@ -1,0 +1,738 @@
+[0.000000] (-) TimerEvent: {}
+[0.003870] (action_tutorials_cpp) JobQueued: {'identifier': 'action_tutorials_cpp', 'dependencies': OrderedDict()}
+[0.004713] (my_python_package) JobQueued: {'identifier': 'my_python_package', 'dependencies': OrderedDict()}
+[0.005479] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.006496] (action_tutorials_cpp) JobStarted: {'identifier': 'action_tutorials_cpp'}
+[0.080522] (-) TimerEvent: {}
+[0.186375] (-) TimerEvent: {}
+[0.292339] (-) TimerEvent: {}
+[0.397301] (-) TimerEvent: {}
+[0.498704] (-) TimerEvent: {}
+[0.602674] (-) TimerEvent: {}
+[0.703539] (-) TimerEvent: {}
+[0.806031] (-) TimerEvent: {}
+[0.867337] (my_python_package) JobStarted: {'identifier': 'my_python_package'}
+[0.911544] (-) TimerEvent: {}
+[1.017148] (-) TimerEvent: {}
+[1.121765] (-) TimerEvent: {}
+[1.234370] (-) TimerEvent: {}
+[1.335692] (-) TimerEvent: {}
+[1.436470] (-) TimerEvent: {}
+[1.537461] (-) TimerEvent: {}
+[1.641945] (-) TimerEvent: {}
+[1.752491] (-) TimerEvent: {}
+[1.859508] (-) TimerEvent: {}
+[1.947414] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[1.960555] (-) TimerEvent: {}
+[2.068162] (-) TimerEvent: {}
+[2.172821] (-) TimerEvent: {}
+[2.274887] (-) TimerEvent: {}
+[2.387240] (-) TimerEvent: {}
+[2.487892] (-) TimerEvent: {}
+[2.591115] (-) TimerEvent: {}
+[2.694680] (-) TimerEvent: {}
+[2.798507] (-) TimerEvent: {}
+[2.901354] (-) TimerEvent: {}
+[3.002687] (-) TimerEvent: {}
+[3.004117] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'cmake'}
+[3.005912] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'build'}
+[3.007944] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pavitpc/ros2_ws/build/action_tutorials_cpp', '--', '-j4', '-l4'], 'cwd': '/home/pavitpc/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavitpc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', 'ros2_ws/install/action_tutorials_cpp/lib:/home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavitpc'), ('OLDPWD', '/home/pavitpc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavitpc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavitpc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavitpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pavitpc:@/tmp/.ICE-unix/1712,unix/pavitpc:/tmp/.ICE-unix/1712'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e4a0d52_2612_4062_9e4f_96c9dfd02b8b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LVWPH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.316'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/home/pavitpc/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavitpc/ros2_ws/build/action_tutorials_cpp'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavitpc/ros2_ws/build/my_robot_controller:/home/pavitpc/ros2_ws/build/my_python_package:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/action_tutorials_cpp:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble')]), 'shell': False}
+[3.114083] (-) TimerEvent: {}
+[3.216758] (-) TimerEvent: {}
+[3.319769] (-) TimerEvent: {}
+[3.420999] (-) TimerEvent: {}
+[3.524621] (-) TimerEvent: {}
+[3.625600] (-) TimerEvent: {}
+[3.733348] (-) TimerEvent: {}
+[3.844390] (-) TimerEvent: {}
+[3.945291] (-) TimerEvent: {}
+[4.073668] (-) TimerEvent: {}
+[4.174619] (-) TimerEvent: {}
+[4.279482] (-) TimerEvent: {}
+[4.382439] (-) TimerEvent: {}
+[4.484340] (-) TimerEvent: {}
+[4.599651] (-) TimerEvent: {}
+[4.709646] (-) TimerEvent: {}
+[4.816750] (-) TimerEvent: {}
+[4.919859] (-) TimerEvent: {}
+[5.022615] (-) TimerEvent: {}
+[5.125618] (-) TimerEvent: {}
+[5.227437] (-) TimerEvent: {}
+[5.330065] (-) TimerEvent: {}
+[5.430894] (-) TimerEvent: {}
+[5.536369] (-) TimerEvent: {}
+[5.640478] (-) TimerEvent: {}
+[5.741244] (-) TimerEvent: {}
+[5.854502] (-) TimerEvent: {}
+[5.962595] (-) TimerEvent: {}
+[6.065108] (-) TimerEvent: {}
+[6.169581] (-) TimerEvent: {}
+[6.270670] (-) TimerEvent: {}
+[6.378627] (-) TimerEvent: {}
+[6.479244] (-) TimerEvent: {}
+[6.584570] (-) TimerEvent: {}
+[6.690868] (-) TimerEvent: {}
+[6.802180] (-) TimerEvent: {}
+[6.904507] (-) TimerEvent: {}
+[7.016601] (-) TimerEvent: {}
+[7.117916] (-) TimerEvent: {}
+[7.219250] (-) TimerEvent: {}
+[7.299126] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.299491] (action_tutorials_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.299725] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.20.3 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)\n'}
+[7.299937] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.300346] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.300634] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.300891] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.301094] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.319745] (-) TimerEvent: {}
+[7.423149] (-) TimerEvent: {}
+[7.524170] (-) TimerEvent: {}
+[7.625090] (-) TimerEvent: {}
+[7.735088] (-) TimerEvent: {}
+[7.836115] (-) TimerEvent: {}
+[7.937150] (-) TimerEvent: {}
+[8.038448] (-) TimerEvent: {}
+[8.139770] (-) TimerEvent: {}
+[8.244200] (-) TimerEvent: {}
+[8.350497] (-) TimerEvent: {}
+[8.453673] (-) TimerEvent: {}
+[8.557602] (-) TimerEvent: {}
+[8.661551] (-) TimerEvent: {}
+[8.762614] (-) TimerEvent: {}
+[8.864195] (-) TimerEvent: {}
+[8.964776] (-) TimerEvent: {}
+[9.065742] (-) TimerEvent: {}
+[9.166472] (-) TimerEvent: {}
+[9.267169] (-) TimerEvent: {}
+[9.371058] (-) TimerEvent: {}
+[9.474076] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.476927] (-) TimerEvent: {}
+[9.580149] (-) TimerEvent: {}
+[9.681380] (-) TimerEvent: {}
+[9.782303] (-) TimerEvent: {}
+[9.885382] (-) TimerEvent: {}
+[9.986541] (-) TimerEvent: {}
+[10.090790] (-) TimerEvent: {}
+[10.191668] (-) TimerEvent: {}
+[10.295986] (-) TimerEvent: {}
+[10.399521] (-) TimerEvent: {}
+[10.503406] (-) TimerEvent: {}
+[10.610906] (-) TimerEvent: {}
+[10.730716] (-) TimerEvent: {}
+[10.863124] (-) TimerEvent: {}
+[10.970550] (-) TimerEvent: {}
+[10.974660] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.023034] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[11.070679] (-) TimerEvent: {}
+[11.178135] (-) TimerEvent: {}
+[11.279325] (-) TimerEvent: {}
+[11.384816] (-) TimerEvent: {}
+[11.505106] (-) TimerEvent: {}
+[11.622320] (-) TimerEvent: {}
+[11.733920] (-) TimerEvent: {}
+[11.817684] (action_tutorials_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[11.845308] (-) TimerEvent: {}
+[11.947800] (-) TimerEvent: {}
+[12.051815] (-) TimerEvent: {}
+[12.162551] (-) TimerEvent: {}
+[12.264478] (-) TimerEvent: {}
+[12.377415] (-) TimerEvent: {}
+[12.478778] (-) TimerEvent: {}
+[12.586464] (-) TimerEvent: {}
+[12.694948] (-) TimerEvent: {}
+[12.801275] (-) TimerEvent: {}
+[12.902207] (-) TimerEvent: {}
+[13.009232] (-) TimerEvent: {}
+[13.113729] (-) TimerEvent: {}
+[13.222044] (-) TimerEvent: {}
+[13.322645] (-) TimerEvent: {}
+[13.427186] (-) TimerEvent: {}
+[13.534226] (-) TimerEvent: {}
+[13.635279] (-) TimerEvent: {}
+[13.754368] (-) TimerEvent: {}
+[13.856744] (-) TimerEvent: {}
+[13.957196] (-) TimerEvent: {}
+[14.058978] (-) TimerEvent: {}
+[14.160026] (-) TimerEvent: {}
+[14.268830] (-) TimerEvent: {}
+[14.376525] (-) TimerEvent: {}
+[14.477714] (-) TimerEvent: {}
+[14.584406] (-) TimerEvent: {}
+[14.685528] (-) TimerEvent: {}
+[14.794606] (-) TimerEvent: {}
+[14.902424] (-) TimerEvent: {}
+[15.010248] (-) TimerEvent: {}
+[15.113524] (-) TimerEvent: {}
+[15.215645] (-) TimerEvent: {}
+[15.342219] (-) TimerEvent: {}
+[15.444877] (-) TimerEvent: {}
+[15.540348] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[15.545092] (-) TimerEvent: {}
+[15.646502] (-) TimerEvent: {}
+[15.752048] (-) TimerEvent: {}
+[15.858971] (-) TimerEvent: {}
+[15.959735] (-) TimerEvent: {}
+[16.075521] (-) TimerEvent: {}
+[16.135833] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[16.175632] (-) TimerEvent: {}
+[16.276452] (-) TimerEvent: {}
+[16.385451] (-) TimerEvent: {}
+[16.488275] (-) TimerEvent: {}
+[16.602675] (-) TimerEvent: {}
+[16.706541] (-) TimerEvent: {}
+[16.814654] (-) TimerEvent: {}
+[16.922961] (-) TimerEvent: {}
+[17.028212] (-) TimerEvent: {}
+[17.040522] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.12 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[17.128470] (-) TimerEvent: {}
+[17.230974] (-) TimerEvent: {}
+[17.341414] (-) TimerEvent: {}
+[17.445398] (-) TimerEvent: {}
+[17.558479] (-) TimerEvent: {}
+[17.668314] (-) TimerEvent: {}
+[17.779015] (-) TimerEvent: {}
+[17.888028] (-) TimerEvent: {}
+[17.991572] (-) TimerEvent: {}
+[18.092912] (-) TimerEvent: {}
+[18.209624] (-) TimerEvent: {}
+[18.318974] (-) TimerEvent: {}
+[18.427402] (-) TimerEvent: {}
+[18.534957] (-) TimerEvent: {}
+[18.641561] (-) TimerEvent: {}
+[18.747093] (-) TimerEvent: {}
+[18.812478] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pavitpc/ros2_ws/build/my_robot_controller/build', '--no-deps', 'install_data'], 'cwd': '/home/pavitpc/ros2_ws/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pavitpc', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': 'ros2_ws/install/action_tutorials_cpp/lib:/home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pavitpc', 'OLDPWD': '/home/pavitpc', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1712', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pavitpc/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pavitpc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pavitpc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pavitpc:@/tmp/.ICE-unix/1712,unix/pavitpc:/tmp/.ICE-unix/1712', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e4a0d52_2612_4062_9e4f_96c9dfd02b8b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVWPH2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.316', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/home/pavitpc/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pavitpc/ros2_ws/build/my_robot_controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pavitpc/ros2_ws/build/my_robot_controller/prefix_override:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/pavitpc/ros2_ws/build/my_robot_controller:/home/pavitpc/ros2_ws/build/my_python_package:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pavitpc/ros2_ws/install/action_tutorials_cpp'}, 'shell': False}
+[18.849587] (-) TimerEvent: {}
+[18.959297] (-) TimerEvent: {}
+[19.021103] (my_python_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pavitpc/ros2_ws/build/my_python_package/build', '--no-deps', 'install_data'], 'cwd': '/home/pavitpc/ros2_ws/build/my_python_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pavitpc', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': 'ros2_ws/install/action_tutorials_cpp/lib:/home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pavitpc', 'OLDPWD': '/home/pavitpc', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1712', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pavitpc/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pavitpc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pavitpc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pavitpc:@/tmp/.ICE-unix/1712,unix/pavitpc:/tmp/.ICE-unix/1712', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4e4a0d52_2612_4062_9e4f_96c9dfd02b8b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVWPH2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.316', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/home/pavitpc/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pavitpc/ros2_ws/build/my_python_package', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pavitpc/ros2_ws/build/my_python_package/prefix_override:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/home/pavitpc/ros2_ws/build/my_robot_controller:/home/pavitpc/ros2_ws/build/my_python_package:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pavitpc/ros2_ws/install/action_tutorials_cpp'}, 'shell': False}
+[19.059617] (-) TimerEvent: {}
+[19.166099] (-) TimerEvent: {}
+[19.266708] (-) TimerEvent: {}
+[19.367669] (-) TimerEvent: {}
+[19.470042] (-) TimerEvent: {}
+[19.570659] (-) TimerEvent: {}
+[19.674258] (-) TimerEvent: {}
+[19.778549] (-) TimerEvent: {}
+[19.880645] (-) TimerEvent: {}
+[19.983311] (-) TimerEvent: {}
+[20.093269] (-) TimerEvent: {}
+[20.202139] (-) TimerEvent: {}
+[20.303734] (-) TimerEvent: {}
+[20.404546] (-) TimerEvent: {}
+[20.512222] (-) TimerEvent: {}
+[20.615486] (-) TimerEvent: {}
+[20.718370] (-) TimerEvent: {}
+[20.825858] (-) TimerEvent: {}
+[20.935173] (-) TimerEvent: {}
+[21.039125] (-) TimerEvent: {}
+[21.148348] (-) TimerEvent: {}
+[21.250104] (-) TimerEvent: {}
+[21.354482] (-) TimerEvent: {}
+[21.404970] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[21.454883] (-) TimerEvent: {}
+[21.563431] (-) TimerEvent: {}
+[21.678377] (-) TimerEvent: {}
+[21.808391] (-) TimerEvent: {}
+[21.909847] (-) TimerEvent: {}
+[22.013837] (-) TimerEvent: {}
+[22.134611] (-) TimerEvent: {}
+[22.241325] (-) TimerEvent: {}
+[22.354184] (-) TimerEvent: {}
+[22.460810] (-) TimerEvent: {}
+[22.562890] (-) TimerEvent: {}
+[22.665277] (-) TimerEvent: {}
+[22.735162] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[22.748430] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pavitpc/ros2_ws/src/action_tutorials_cpp/include>\n'}
+[22.749392] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[22.794602] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.797551] (-) TimerEvent: {}
+[22.805879] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[22.806464] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[22.810544] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[22.854062] (my_python_package) StdoutLine: {'line': b'running develop\n'}
+[22.857597] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[22.858603] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.898073] (-) TimerEvent: {}
+[23.000767] (-) TimerEvent: {}
+[23.104358] (-) TimerEvent: {}
+[23.206472] (-) TimerEvent: {}
+[23.214638] (action_tutorials_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[23.230332] (action_tutorials_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/pavitpc/ros2_ws/build/action_tutorials_cpp\n'}
+[23.306822] (-) TimerEvent: {}
+[23.412541] (-) TimerEvent: {}
+[23.520021] (-) TimerEvent: {}
+[23.619885] (action_tutorials_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_client\x1b[0m\n'}
+[23.622289] (-) TimerEvent: {}
+[23.727030] (-) TimerEvent: {}
+[23.799890] (action_tutorials_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/navigate_to_pose_action_client.cpp.o\x1b[0m\n'}
+[23.830182] (-) TimerEvent: {}
+[23.937518] (-) TimerEvent: {}
+[24.041112] (-) TimerEvent: {}
+[24.142172] (-) TimerEvent: {}
+[24.245493] (-) TimerEvent: {}
+[24.346356] (-) TimerEvent: {}
+[24.448818] (-) TimerEvent: {}
+[24.560383] (-) TimerEvent: {}
+[24.664642] (-) TimerEvent: {}
+[24.768450] (-) TimerEvent: {}
+[24.872044] (-) TimerEvent: {}
+[24.975888] (-) TimerEvent: {}
+[25.002264] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[25.018490] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[25.032803] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[25.033870] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[25.034970] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[25.035773] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[25.062551] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[25.076070] (-) TimerEvent: {}
+[25.112953] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[25.134597] (my_python_package) StdoutLine: {'line': b'running egg_info\n'}
+[25.144502] (my_python_package) StdoutLine: {'line': b'writing my_python_package.egg-info/PKG-INFO\n'}
+[25.153218] (my_python_package) StdoutLine: {'line': b'writing dependency_links to my_python_package.egg-info/dependency_links.txt\n'}
+[25.153964] (my_python_package) StdoutLine: {'line': b'writing entry points to my_python_package.egg-info/entry_points.txt\n'}
+[25.154819] (my_python_package) StdoutLine: {'line': b'writing requirements to my_python_package.egg-info/requires.txt\n'}
+[25.155484] (my_python_package) StdoutLine: {'line': b'writing top-level names to my_python_package.egg-info/top_level.txt\n'}
+[25.161034] (my_python_package) StdoutLine: {'line': b"reading manifest file 'my_python_package.egg-info/SOURCES.txt'\n"}
+[25.166351] (my_python_package) StdoutLine: {'line': b"writing manifest file 'my_python_package.egg-info/SOURCES.txt'\n"}
+[25.171547] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[25.174989] (my_robot_controller) StdoutLine: {'line': b'Creating /home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[25.177424] (-) TimerEvent: {}
+[25.190411] (my_robot_controller) StdoutLine: {'line': b'Installing circle_node script to /home/pavitpc/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[25.195157] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/pavitpc/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[25.196829] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[25.207933] (my_robot_controller) StdoutLine: {'line': b'Installed /home/pavitpc/ros2_ws/build/my_robot_controller\n'}
+[25.214814] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[25.217824] (my_python_package) StdoutLine: {'line': b'running build_ext\n'}
+[25.236015] (my_python_package) StdoutLine: {'line': b'Creating /home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my-python-package.egg-link (link to .)\n'}
+[25.256769] (my_python_package) StdoutLine: {'line': b'Installing my_node script to /home/pavitpc/ros2_ws/install/my_python_package/lib/my_python_package\n'}
+[25.257975] (my_python_package) StdoutLine: {'line': b'\n'}
+[25.258704] (my_python_package) StdoutLine: {'line': b'Installed /home/pavitpc/ros2_ws/build/my_python_package\n'}
+[25.259324] (my_python_package) StdoutLine: {'line': b'running install_data\n'}
+[25.277867] (-) TimerEvent: {}
+[25.382101] (-) TimerEvent: {}
+[25.483650] (-) TimerEvent: {}
+[25.588031] (-) TimerEvent: {}
+[25.630578] (my_robot_controller) CommandEnded: {'returncode': 0}
+[25.690138] (-) TimerEvent: {}
+[25.790911] (-) TimerEvent: {}
+[25.914128] (-) TimerEvent: {}
+[26.023234] (-) TimerEvent: {}
+[26.128799] (-) TimerEvent: {}
+[26.237711] (-) TimerEvent: {}
+[26.341591] (-) TimerEvent: {}
+[26.446227] (-) TimerEvent: {}
+[26.550505] (-) TimerEvent: {}
+[26.651259] (-) TimerEvent: {}
+[26.765613] (-) TimerEvent: {}
+[26.869454] (-) TimerEvent: {}
+[26.876257] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[26.893312] (my_python_package) CommandEnded: {'returncode': 0}
+[26.972769] (-) TimerEvent: {}
+[27.080426] (-) TimerEvent: {}
+[27.194663] (-) TimerEvent: {}
+[27.302124] (-) TimerEvent: {}
+[27.403436] (-) TimerEvent: {}
+[27.510303] (-) TimerEvent: {}
+[27.613800] (-) TimerEvent: {}
+[27.715268] (-) TimerEvent: {}
+[27.827035] (-) TimerEvent: {}
+[27.945349] (-) TimerEvent: {}
+[28.071850] (-) TimerEvent: {}
+[28.115119] (my_python_package) JobEnded: {'identifier': 'my_python_package', 'rc': 0}
+[28.172745] (-) TimerEvent: {}
+[28.275673] (-) TimerEvent: {}
+[28.377773] (-) TimerEvent: {}
+[28.478231] (-) TimerEvent: {}
+[28.578930] (-) TimerEvent: {}
+[28.685293] (-) TimerEvent: {}
+[28.785887] (-) TimerEvent: {}
+[28.886725] (-) TimerEvent: {}
+[28.991230] (-) TimerEvent: {}
+[29.092426] (-) TimerEvent: {}
+[29.196057] (-) TimerEvent: {}
+[29.298306] (-) TimerEvent: {}
+[29.400650] (-) TimerEvent: {}
+[29.505475] (-) TimerEvent: {}
+[29.610786] (-) TimerEvent: {}
+[29.713064] (-) TimerEvent: {}
+[29.818567] (-) TimerEvent: {}
+[29.923571] (-) TimerEvent: {}
+[30.031710] (-) TimerEvent: {}
+[30.133938] (-) TimerEvent: {}
+[30.234357] (-) TimerEvent: {}
+[30.335140] (-) TimerEvent: {}
+[30.440509] (-) TimerEvent: {}
+[30.545605] (-) TimerEvent: {}
+[30.651391] (-) TimerEvent: {}
+[30.763982] (-) TimerEvent: {}
+[30.869457] (-) TimerEvent: {}
+[30.975512] (-) TimerEvent: {}
+[31.083609] (-) TimerEvent: {}
+[31.185791] (-) TimerEvent: {}
+[31.291082] (-) TimerEvent: {}
+[31.391914] (-) TimerEvent: {}
+[31.494670] (-) TimerEvent: {}
+[31.595843] (-) TimerEvent: {}
+[31.698447] (-) TimerEvent: {}
+[31.800900] (-) TimerEvent: {}
+[31.906525] (-) TimerEvent: {}
+[32.011918] (-) TimerEvent: {}
+[32.119804] (-) TimerEvent: {}
+[32.222613] (-) TimerEvent: {}
+[32.330405] (-) TimerEvent: {}
+[32.435778] (-) TimerEvent: {}
+[32.537751] (-) TimerEvent: {}
+[32.643236] (-) TimerEvent: {}
+[32.763112] (-) TimerEvent: {}
+[32.868635] (-) TimerEvent: {}
+[32.972867] (-) TimerEvent: {}
+[33.078850] (-) TimerEvent: {}
+[33.184010] (-) TimerEvent: {}
+[33.288033] (-) TimerEvent: {}
+[33.393749] (-) TimerEvent: {}
+[33.497408] (-) TimerEvent: {}
+[33.606456] (-) TimerEvent: {}
+[33.707375] (-) TimerEvent: {}
+[33.811653] (-) TimerEvent: {}
+[33.914993] (-) TimerEvent: {}
+[34.019702] (-) TimerEvent: {}
+[34.120633] (-) TimerEvent: {}
+[34.224129] (-) TimerEvent: {}
+[34.324554] (-) TimerEvent: {}
+[34.425746] (-) TimerEvent: {}
+[34.527817] (-) TimerEvent: {}
+[34.631706] (-) TimerEvent: {}
+[34.735050] (-) TimerEvent: {}
+[34.842733] (-) TimerEvent: {}
+[34.946446] (-) TimerEvent: {}
+[35.050047] (-) TimerEvent: {}
+[35.152680] (-) TimerEvent: {}
+[35.255384] (-) TimerEvent: {}
+[35.358628] (-) TimerEvent: {}
+[35.464272] (-) TimerEvent: {}
+[35.568105] (-) TimerEvent: {}
+[35.671939] (-) TimerEvent: {}
+[35.773237] (-) TimerEvent: {}
+[35.874267] (-) TimerEvent: {}
+[35.978563] (-) TimerEvent: {}
+[36.085341] (-) TimerEvent: {}
+[36.188015] (-) TimerEvent: {}
+[36.292851] (-) TimerEvent: {}
+[36.393754] (-) TimerEvent: {}
+[36.497853] (-) TimerEvent: {}
+[36.603106] (-) TimerEvent: {}
+[36.704444] (-) TimerEvent: {}
+[36.807234] (-) TimerEvent: {}
+[36.909747] (-) TimerEvent: {}
+[37.010906] (-) TimerEvent: {}
+[37.113378] (-) TimerEvent: {}
+[37.214534] (-) TimerEvent: {}
+[37.317951] (-) TimerEvent: {}
+[37.420759] (-) TimerEvent: {}
+[37.523086] (-) TimerEvent: {}
+[37.626502] (-) TimerEvent: {}
+[37.731072] (-) TimerEvent: {}
+[37.832110] (-) TimerEvent: {}
+[37.932531] (-) TimerEvent: {}
+[38.033289] (-) TimerEvent: {}
+[38.135913] (-) TimerEvent: {}
+[38.238863] (-) TimerEvent: {}
+[38.341021] (-) TimerEvent: {}
+[38.441433] (-) TimerEvent: {}
+[38.542610] (-) TimerEvent: {}
+[38.646738] (-) TimerEvent: {}
+[38.747720] (-) TimerEvent: {}
+[38.850168] (-) TimerEvent: {}
+[38.950971] (-) TimerEvent: {}
+[39.056613] (-) TimerEvent: {}
+[39.159922] (-) TimerEvent: {}
+[39.260759] (-) TimerEvent: {}
+[39.364455] (-) TimerEvent: {}
+[39.465282] (-) TimerEvent: {}
+[39.566741] (-) TimerEvent: {}
+[39.669820] (-) TimerEvent: {}
+[39.774339] (-) TimerEvent: {}
+[39.880087] (-) TimerEvent: {}
+[39.982524] (-) TimerEvent: {}
+[40.083403] (-) TimerEvent: {}
+[40.185316] (-) TimerEvent: {}
+[40.289251] (-) TimerEvent: {}
+[40.393146] (-) TimerEvent: {}
+[40.497017] (-) TimerEvent: {}
+[40.602271] (-) TimerEvent: {}
+[40.710385] (-) TimerEvent: {}
+[40.816037] (-) TimerEvent: {}
+[40.921301] (-) TimerEvent: {}
+[41.021774] (-) TimerEvent: {}
+[41.122542] (-) TimerEvent: {}
+[41.227611] (-) TimerEvent: {}
+[41.331196] (-) TimerEvent: {}
+[41.434711] (-) TimerEvent: {}
+[41.538574] (-) TimerEvent: {}
+[41.642556] (-) TimerEvent: {}
+[41.746539] (-) TimerEvent: {}
+[41.847270] (-) TimerEvent: {}
+[41.951614] (-) TimerEvent: {}
+[42.054634] (-) TimerEvent: {}
+[42.155526] (-) TimerEvent: {}
+[42.259362] (-) TimerEvent: {}
+[42.362678] (-) TimerEvent: {}
+[42.463127] (-) TimerEvent: {}
+[42.563923] (-) TimerEvent: {}
+[42.669691] (-) TimerEvent: {}
+[42.774424] (-) TimerEvent: {}
+[42.874857] (-) TimerEvent: {}
+[42.976866] (-) TimerEvent: {}
+[43.080207] (-) TimerEvent: {}
+[43.181810] (-) TimerEvent: {}
+[43.282647] (-) TimerEvent: {}
+[43.390932] (-) TimerEvent: {}
+[43.495263] (-) TimerEvent: {}
+[43.595694] (-) TimerEvent: {}
+[43.697915] (-) TimerEvent: {}
+[43.800985] (-) TimerEvent: {}
+[43.902372] (-) TimerEvent: {}
+[44.006741] (-) TimerEvent: {}
+[44.108195] (-) TimerEvent: {}
+[44.210490] (-) TimerEvent: {}
+[44.316265] (-) TimerEvent: {}
+[44.424174] (-) TimerEvent: {}
+[44.528539] (-) TimerEvent: {}
+[44.629426] (-) TimerEvent: {}
+[44.731001] (-) TimerEvent: {}
+[44.835428] (-) TimerEvent: {}
+[44.940609] (-) TimerEvent: {}
+[45.043742] (-) TimerEvent: {}
+[45.144746] (-) TimerEvent: {}
+[45.247723] (-) TimerEvent: {}
+[45.352562] (-) TimerEvent: {}
+[45.456964] (-) TimerEvent: {}
+[45.565005] (-) TimerEvent: {}
+[45.670189] (-) TimerEvent: {}
+[45.783273] (-) TimerEvent: {}
+[45.888773] (-) TimerEvent: {}
+[45.999112] (-) TimerEvent: {}
+[46.105840] (-) TimerEvent: {}
+[46.213441] (-) TimerEvent: {}
+[46.317581] (-) TimerEvent: {}
+[46.418491] (-) TimerEvent: {}
+[46.523319] (-) TimerEvent: {}
+[46.624925] (-) TimerEvent: {}
+[46.727043] (-) TimerEvent: {}
+[46.833560] (-) TimerEvent: {}
+[46.940463] (-) TimerEvent: {}
+[47.043845] (-) TimerEvent: {}
+[47.144828] (-) TimerEvent: {}
+[47.250771] (-) TimerEvent: {}
+[47.351561] (-) TimerEvent: {}
+[47.455869] (-) TimerEvent: {}
+[47.560529] (-) TimerEvent: {}
+[47.665278] (-) TimerEvent: {}
+[47.770244] (-) TimerEvent: {}
+[47.873739] (-) TimerEvent: {}
+[47.976669] (-) TimerEvent: {}
+[48.079926] (-) TimerEvent: {}
+[48.180785] (-) TimerEvent: {}
+[48.284101] (-) TimerEvent: {}
+[48.386474] (-) TimerEvent: {}
+[48.487317] (-) TimerEvent: {}
+[48.589716] (-) TimerEvent: {}
+[48.695828] (-) TimerEvent: {}
+[48.796391] (-) TimerEvent: {}
+[48.897504] (-) TimerEvent: {}
+[49.003631] (-) TimerEvent: {}
+[49.107491] (-) TimerEvent: {}
+[49.210664] (-) TimerEvent: {}
+[49.315449] (-) TimerEvent: {}
+[49.418228] (-) TimerEvent: {}
+[49.518815] (-) TimerEvent: {}
+[49.619933] (-) TimerEvent: {}
+[49.723952] (-) TimerEvent: {}
+[49.832070] (-) TimerEvent: {}
+[49.932506] (-) TimerEvent: {}
+[50.033433] (-) TimerEvent: {}
+[50.141300] (-) TimerEvent: {}
+[50.242241] (-) TimerEvent: {}
+[50.343844] (-) TimerEvent: {}
+[50.446183] (-) TimerEvent: {}
+[50.546701] (-) TimerEvent: {}
+[50.647116] (-) TimerEvent: {}
+[50.747542] (-) TimerEvent: {}
+[50.848165] (-) TimerEvent: {}
+[50.952938] (-) TimerEvent: {}
+[51.069217] (-) TimerEvent: {}
+[51.169680] (-) TimerEvent: {}
+[51.270462] (-) TimerEvent: {}
+[51.372623] (-) TimerEvent: {}
+[51.473458] (-) TimerEvent: {}
+[51.575147] (-) TimerEvent: {}
+[51.679209] (-) TimerEvent: {}
+[51.787510] (-) TimerEvent: {}
+[51.890914] (-) TimerEvent: {}
+[51.995417] (-) TimerEvent: {}
+[52.096642] (-) TimerEvent: {}
+[52.203434] (-) TimerEvent: {}
+[52.305565] (-) TimerEvent: {}
+[52.412436] (-) TimerEvent: {}
+[52.517900] (-) TimerEvent: {}
+[52.621724] (-) TimerEvent: {}
+[52.725791] (-) TimerEvent: {}
+[52.827529] (-) TimerEvent: {}
+[52.929866] (-) TimerEvent: {}
+[53.033498] (-) TimerEvent: {}
+[53.137306] (-) TimerEvent: {}
+[53.238378] (-) TimerEvent: {}
+[53.346971] (-) TimerEvent: {}
+[53.449762] (-) TimerEvent: {}
+[53.553570] (-) TimerEvent: {}
+[53.654429] (-) TimerEvent: {}
+[53.758938] (-) TimerEvent: {}
+[53.862740] (-) TimerEvent: {}
+[53.966288] (-) TimerEvent: {}
+[54.070196] (-) TimerEvent: {}
+[54.171189] (-) TimerEvent: {}
+[54.274141] (-) TimerEvent: {}
+[54.376119] (-) TimerEvent: {}
+[54.477727] (-) TimerEvent: {}
+[54.579221] (-) TimerEvent: {}
+[54.682981] (-) TimerEvent: {}
+[54.784360] (-) TimerEvent: {}
+[54.886403] (-) TimerEvent: {}
+[54.989437] (-) TimerEvent: {}
+[55.093621] (-) TimerEvent: {}
+[55.197113] (-) TimerEvent: {}
+[55.297546] (-) TimerEvent: {}
+[55.398585] (-) TimerEvent: {}
+[55.502946] (-) TimerEvent: {}
+[55.607051] (-) TimerEvent: {}
+[55.707915] (-) TimerEvent: {}
+[55.812247] (-) TimerEvent: {}
+[55.913061] (-) TimerEvent: {}
+[56.016773] (-) TimerEvent: {}
+[56.120454] (-) TimerEvent: {}
+[56.221810] (-) TimerEvent: {}
+[56.327297] (-) TimerEvent: {}
+[56.431200] (-) TimerEvent: {}
+[56.532720] (-) TimerEvent: {}
+[56.633760] (-) TimerEvent: {}
+[56.736853] (-) TimerEvent: {}
+[56.841636] (-) TimerEvent: {}
+[56.944233] (-) TimerEvent: {}
+[57.045343] (-) TimerEvent: {}
+[57.149881] (-) TimerEvent: {}
+[57.253872] (-) TimerEvent: {}
+[57.358119] (-) TimerEvent: {}
+[57.461830] (-) TimerEvent: {}
+[57.564503] (-) TimerEvent: {}
+[57.666827] (-) TimerEvent: {}
+[57.767613] (-) TimerEvent: {}
+[57.870509] (-) TimerEvent: {}
+[57.973833] (-) TimerEvent: {}
+[58.078945] (-) TimerEvent: {}
+[58.180955] (-) TimerEvent: {}
+[58.287840] (-) TimerEvent: {}
+[58.394829] (-) TimerEvent: {}
+[58.498862] (-) TimerEvent: {}
+[58.603109] (-) TimerEvent: {}
+[58.707156] (-) TimerEvent: {}
+[58.811563] (-) TimerEvent: {}
+[58.913522] (-) TimerEvent: {}
+[59.017561] (-) TimerEvent: {}
+[59.121213] (-) TimerEvent: {}
+[59.224031] (-) TimerEvent: {}
+[59.325904] (-) TimerEvent: {}
+[59.427122] (-) TimerEvent: {}
+[59.531869] (-) TimerEvent: {}
+[59.635689] (-) TimerEvent: {}
+[59.737865] (-) TimerEvent: {}
+[59.838575] (-) TimerEvent: {}
+[59.940102] (-) TimerEvent: {}
+[60.043898] (-) TimerEvent: {}
+[60.147764] (-) TimerEvent: {}
+[60.249218] (-) TimerEvent: {}
+[60.355513] (-) TimerEvent: {}
+[60.459309] (-) TimerEvent: {}
+[60.560317] (-) TimerEvent: {}
+[60.663027] (-) TimerEvent: {}
+[60.766421] (-) TimerEvent: {}
+[60.778181] (action_tutorials_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libaction_client.so\x1b[0m\n'}
+[60.866751] (-) TimerEvent: {}
+[60.969372] (-) TimerEvent: {}
+[61.070848] (-) TimerEvent: {}
+[61.174416] (-) TimerEvent: {}
+[61.276943] (-) TimerEvent: {}
+[61.380766] (-) TimerEvent: {}
+[61.489286] (-) TimerEvent: {}
+[61.594492] (-) TimerEvent: {}
+[61.699873] (-) TimerEvent: {}
+[61.800354] (-) TimerEvent: {}
+[61.900776] (-) TimerEvent: {}
+[62.002889] (-) TimerEvent: {}
+[62.111486] (-) TimerEvent: {}
+[62.215537] (-) TimerEvent: {}
+[62.317612] (-) TimerEvent: {}
+[62.420136] (-) TimerEvent: {}
+[62.523507] (-) TimerEvent: {}
+[62.624734] (-) TimerEvent: {}
+[62.727032] (-) TimerEvent: {}
+[62.829714] (-) TimerEvent: {}
+[62.933882] (-) TimerEvent: {}
+[63.037611] (-) TimerEvent: {}
+[63.118758] (action_tutorials_cpp) StdoutLine: {'line': b'[ 50%] Built target action_client\n'}
+[63.138266] (-) TimerEvent: {}
+[63.241428] (-) TimerEvent: {}
+[63.305321] (action_tutorials_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigate_to_pose_action_client\x1b[0m\n'}
+[63.341528] (-) TimerEvent: {}
+[63.441954] (-) TimerEvent: {}
+[63.447916] (action_tutorials_cpp) StdoutLine: {'line': b'[100%] Built target navigate_to_pose_action_client\n'}
+[63.535433] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[63.571086] (-) TimerEvent: {}
+[63.673099] (-) TimerEvent: {}
+[63.775780] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'install'}
+[63.775892] (-) TimerEvent: {}
+[63.876859] (-) TimerEvent: {}
+[63.916812] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pavitpc/ros2_ws/build/action_tutorials_cpp'], 'cwd': '/home/pavitpc/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavitpc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', 'ros2_ws/install/action_tutorials_cpp/lib:/home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavitpc'), ('OLDPWD', '/home/pavitpc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavitpc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavitpc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavitpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pavitpc:@/tmp/.ICE-unix/1712,unix/pavitpc:/tmp/.ICE-unix/1712'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e4a0d52_2612_4062_9e4f_96c9dfd02b8b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LVWPH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.316'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/home/pavitpc/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavitpc/ros2_ws/build/action_tutorials_cpp'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4561cfac45d7ae6769ac643565affa44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavitpc/ros2_ws/build/my_robot_controller:/home/pavitpc/ros2_ws/build/my_python_package:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/action_tutorials_cpp:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble')]), 'shell': False}
+[63.982533] (-) TimerEvent: {}
+[64.013649] (action_tutorials_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[64.082952] (-) TimerEvent: {}
+[64.100669] (action_tutorials_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[64.102208] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/navigate_to_pose_action_client\n'}
+[64.103386] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so\n'}
+[64.114196] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp\n'}
+[64.115336] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp\n'}
+[64.116361] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh\n'}
+[64.116969] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv\n'}
+[64.118153] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh\n'}
+[64.119339] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv\n'}
+[64.132462] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash\n'}
+[64.137378] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh\n'}
+[64.143812] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh\n'}
+[64.154616] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv\n'}
+[64.155301] (action_tutorials_cpp) StdoutLine: {'line': b'-- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv\n'}
+[64.182968] (-) TimerEvent: {}
+[64.233413] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp\n'}
+[64.242293] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp\n'}
+[64.249730] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake\n'}
+[64.252298] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake\n'}
+[64.264101] (action_tutorials_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml\n'}
+[64.289812] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[64.291264] (-) TimerEvent: {}
+[64.396814] (-) TimerEvent: {}
+[64.499981] (-) TimerEvent: {}
+[64.601773] (-) TimerEvent: {}
+[64.703196] (-) TimerEvent: {}
+[64.822188] (-) TimerEvent: {}
+[64.927932] (-) TimerEvent: {}
+[65.030225] (-) TimerEvent: {}
+[65.132752] (-) TimerEvent: {}
+[65.234935] (-) TimerEvent: {}
+[65.338195] (-) TimerEvent: {}
+[65.449354] (-) TimerEvent: {}
+[65.552249] (-) TimerEvent: {}
+[65.656402] (-) TimerEvent: {}
+[65.768657] (-) TimerEvent: {}
+[65.873832] (-) TimerEvent: {}
+[65.974444] (-) TimerEvent: {}
+[66.077166] (-) TimerEvent: {}
+[66.123487] (action_tutorials_cpp) JobEnded: {'identifier': 'action_tutorials_cpp', 'rc': 0}
+[66.131543] (-) EventReactorShutdown: {}

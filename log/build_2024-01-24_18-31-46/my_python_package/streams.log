@@ -1,0 +1,25 @@
+[29.528s] Invoking command in '/home/pavitpc/ros2_ws/src/my_python_package': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_python_package/prefix_override:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/pavitpc/ros2_ws/build/my_python_package/build install --record /home/pavitpc/ros2_ws/build/my_python_package/install.log --single-version-externally-managed
+[34.630s] running egg_info
+[34.631s] writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO
+[34.651s] writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt
+[34.662s] writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt
+[34.662s] writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt
+[34.675s] writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt
+[34.677s] reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[34.716s] adding license file 'LICENSE'
+[34.718s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[34.718s] running build
+[34.719s] running build_py
+[34.721s] copying my_python_package/my_node.py -> /home/pavitpc/ros2_ws/build/my_python_package/build/lib/my_python_package
+[34.793s] running install
+[34.796s] running install_lib
+[34.812s] copying /home/pavitpc/ros2_ws/build/my_python_package/build/lib/my_python_package/my_node.py -> /home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[34.814s] byte-compiling /home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/my_node.py to my_node.cpython-310.pyc
+[34.818s] running install_data
+[34.839s] running install_egg_info
+[34.871s] removing '/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[34.872s] Copying ../../build/my_python_package/my_python_package.egg-info to /home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package-0.0.0-py3.10.egg-info
+[34.878s] running install_scripts
+[35.320s] Installing my_node script to /home/pavitpc/ros2_ws/install/my_python_package/lib/my_python_package
+[35.352s] writing list of installed files to '/home/pavitpc/ros2_ws/build/my_python_package/install.log'
+[36.145s] Invoked command in '/home/pavitpc/ros2_ws/src/my_python_package' returned '0': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_python_package/prefix_override:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/pavitpc/ros2_ws/build/my_python_package/build install --record /home/pavitpc/ros2_ws/build/my_python_package/install.log --single-version-externally-managed

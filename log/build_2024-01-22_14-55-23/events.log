@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000364] (my_cpp_py_pkg) JobQueued: {'identifier': 'my_cpp_py_pkg', 'dependencies': OrderedDict()}
+[0.000484] (my_cpp_py_pkg) JobStarted: {'identifier': 'my_cpp_py_pkg'}
+[0.098990] (-) TimerEvent: {}
+[0.112088] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'cmake'}
+[0.113450] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/pavitpc/ros2_ws/src/my_cpp_py_pkg', '-DCMAKE_INSTALL_PREFIX=/home/pavitpc/ros2_ws/install/my_cpp_py_pkg'], 'cwd': '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavitpc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavitpc'), ('OLDPWD', '/home/pavitpc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavitpc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavitpc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavitpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pavitpc:@/tmp/.ICE-unix/1661,unix/pavitpc:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c7254eae_a427_428d_bb92_49c3980b7bdb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5GIRH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavitpc/ros2_ws/build/my_robot_controller:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.137096] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199143] (-) TimerEvent: {}
+[0.299481] (-) TimerEvent: {}
+[0.367724] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399602] (-) TimerEvent: {}
+[0.417717] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.422092] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.432628] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.451561] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.477944] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499721] (-) TimerEvent: {}
+[0.577069] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.579708] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.599846] (-) TimerEvent: {}
+[0.631120] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.699992] (-) TimerEvent: {}
+[0.800393] (-) TimerEvent: {}
+[0.900820] (-) TimerEvent: {}
+[0.906962] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.000978] (-) TimerEvent: {}
+[1.010206] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.101132] (-) TimerEvent: {}
+[1.120244] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.120611] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pavitpc/ros2_ws/src/my_cpp_py_pkg/include\n'}
+[1.120764] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.121283] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.122025] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.122636] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.124389] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.124551] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.125000] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.126101] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.191845] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.193974] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/pavitpc/ros2_ws/build/my_cpp_py_pkg\n'}
+[1.201299] (-) TimerEvent: {}
+[1.203527] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[1.204608] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'build'}
+[1.206480] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavitpc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavitpc'), ('OLDPWD', '/home/pavitpc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavitpc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavitpc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavitpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pavitpc:@/tmp/.ICE-unix/1661,unix/pavitpc:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c7254eae_a427_428d_bb92_49c3980b7bdb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5GIRH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavitpc/ros2_ws/build/my_robot_controller:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.283650] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[1.301502] (-) TimerEvent: {}
+[1.319455] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_my_cpp_py_pkg\n'}
+[1.401639] (-) TimerEvent: {}
+[1.501963] (-) TimerEvent: {}
+[1.602293] (-) TimerEvent: {}
+[1.702639] (-) TimerEvent: {}
+[1.803010] (-) TimerEvent: {}
+[1.903468] (-) TimerEvent: {}
+[1.925106] (my_cpp_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.926462] (my_cpp_py_pkg) StdoutLine: {'line': b'creating my_cpp_py_pkg.egg-info\n'}
+[1.926863] (my_cpp_py_pkg) StdoutLine: {'line': b'writing my_cpp_py_pkg.egg-info/PKG-INFO\n'}
+[1.927149] (my_cpp_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt\n'}
+[1.927378] (my_cpp_py_pkg) StdoutLine: {'line': b'writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt\n'}
+[1.927826] (my_cpp_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.962871] (my_cpp_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.963852] (my_cpp_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.003597] (-) TimerEvent: {}
+[2.005568] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg\n'}
+[2.103780] (-) TimerEvent: {}
+[2.204186] (-) TimerEvent: {}
+[2.304573] (-) TimerEvent: {}
+[2.405012] (-) TimerEvent: {}
+[2.505509] (-) TimerEvent: {}
+[2.605919] (-) TimerEvent: {}
+[2.706337] (-) TimerEvent: {}
+[2.806762] (-) TimerEvent: {}
+[2.907125] (-) TimerEvent: {}
+[3.007526] (-) TimerEvent: {}
+[3.107921] (-) TimerEvent: {}
+[3.208295] (-) TimerEvent: {}
+[3.308778] (-) TimerEvent: {}
+[3.409228] (-) TimerEvent: {}
+[3.509688] (-) TimerEvent: {}
+[3.610010] (-) TimerEvent: {}
+[3.710448] (-) TimerEvent: {}
+[3.810795] (-) TimerEvent: {}
+[3.911343] (-) TimerEvent: {}
+[4.011669] (-) TimerEvent: {}
+[4.112056] (-) TimerEvent: {}
+[4.212415] (-) TimerEvent: {}
+[4.312777] (-) TimerEvent: {}
+[4.413145] (-) TimerEvent: {}
+[4.513567] (-) TimerEvent: {}
+[4.613933] (-) TimerEvent: {}
+[4.714296] (-) TimerEvent: {}
+[4.814657] (-) TimerEvent: {}
+[4.915006] (-) TimerEvent: {}
+[5.015377] (-) TimerEvent: {}
+[5.115747] (-) TimerEvent: {}
+[5.216100] (-) TimerEvent: {}
+[5.316622] (-) TimerEvent: {}
+[5.417193] (-) TimerEvent: {}
+[5.517600] (-) TimerEvent: {}
+[5.618011] (-) TimerEvent: {}
+[5.718442] (-) TimerEvent: {}
+[5.818828] (-) TimerEvent: {}
+[5.919229] (-) TimerEvent: {}
+[6.019626] (-) TimerEvent: {}
+[6.120021] (-) TimerEvent: {}
+[6.220424] (-) TimerEvent: {}
+[6.320812] (-) TimerEvent: {}
+[6.421201] (-) TimerEvent: {}
+[6.521592] (-) TimerEvent: {}
+[6.621985] (-) TimerEvent: {}
+[6.722374] (-) TimerEvent: {}
+[6.822765] (-) TimerEvent: {}
+[6.923176] (-) TimerEvent: {}
+[7.023560] (-) TimerEvent: {}
+[7.123922] (-) TimerEvent: {}
+[7.224307] (-) TimerEvent: {}
+[7.324678] (-) TimerEvent: {}
+[7.425105] (-) TimerEvent: {}
+[7.525501] (-) TimerEvent: {}
+[7.625878] (-) TimerEvent: {}
+[7.726247] (-) TimerEvent: {}
+[7.826614] (-) TimerEvent: {}
+[7.926927] (-) TimerEvent: {}
+[8.027286] (-) TimerEvent: {}
+[8.127652] (-) TimerEvent: {}
+[8.228009] (-) TimerEvent: {}
+[8.328449] (-) TimerEvent: {}
+[8.428808] (-) TimerEvent: {}
+[8.529244] (-) TimerEvent: {}
+[8.629629] (-) TimerEvent: {}
+[8.730088] (-) TimerEvent: {}
+[8.810131] (my_cpp_py_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_exe\x1b[0m\n'}
+[8.830232] (-) TimerEvent: {}
+[8.930710] (-) TimerEvent: {}
+[9.031079] (-) TimerEvent: {}
+[9.131462] (-) TimerEvent: {}
+[9.231839] (-) TimerEvent: {}
+[9.332266] (-) TimerEvent: {}
+[9.432632] (-) TimerEvent: {}
+[9.533062] (-) TimerEvent: {}
+[9.633485] (-) TimerEvent: {}
+[9.679361] (my_cpp_py_pkg) StdoutLine: {'line': b'[100%] Built target cpp_exe\n'}
+[9.696745] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[9.733575] (-) TimerEvent: {}
+[9.739430] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'install'}
+[9.753037] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg'], 'cwd': '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pavitpc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pavitpc'), ('OLDPWD', '/home/pavitpc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pavitpc/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pavitpc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pavitpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pavitpc:@/tmp/.ICE-unix/1661,unix/pavitpc:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c7254eae_a427_428d_bb92_49c3980b7bdb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5GIRH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pavitpc/ros2_ws/build/my_cpp_py_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pavitpc/ros2_ws/build/my_robot_controller:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pavitpc/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[9.765808] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.766264] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/libs/my_cpp_py_pkg/cpp_exe\n'}
+[9.767123] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/pavitpc/ros2_ws/install/my_cpp_py_pkg/libs/my_cpp_py_pkg/cpp_exe" to ""\n'}
+[9.767435] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh\n'}
+[9.767717] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv\n'}
+[9.768056] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info\n'}
+[9.768359] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.768651] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.768953] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.769146] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.769402] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg\n'}
+[9.769693] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/my_node.py\n'}
+[9.769939] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/stop_node.py\n'}
+[9.770143] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/__init__.py\n'}
+[9.833795] (-) TimerEvent: {}
+[9.875432] (my_cpp_py_pkg) StdoutLine: {'line': b"Listing '/home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg'...\n"}
+[9.875664] (my_cpp_py_pkg) StdoutLine: {'line': b"Compiling '/home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/__init__.py'...\n"}
+[9.875812] (my_cpp_py_pkg) StdoutLine: {'line': b"Compiling '/home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/my_node.py'...\n"}
+[9.875913] (my_cpp_py_pkg) StdoutLine: {'line': b"Compiling '/home/pavitpc/ros2_ws/install/my_cpp_py_pkg/local/lib/python3.10/dist-packages/my_cpp_py_pkg/stop_node.py'...\n"}
+[9.882344] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/libs/my_cpp_py_pkg/py_node.py\n'}
+[9.902951] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg\n'}
+[9.903612] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg\n'}
+[9.903988] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh\n'}
+[9.904304] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv\n'}
+[9.904608] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh\n'}
+[9.904901] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv\n'}
+[9.905164] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash\n'}
+[9.905540] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh\n'}
+[9.905857] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh\n'}
+[9.906130] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv\n'}
+[9.906519] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv\n'}
+[9.906852] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg\n'}
+[9.908076] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake\n'}
+[9.908331] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake\n'}
+[9.908572] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/pavitpc/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml\n'}
+[9.911361] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[9.934092] (-) TimerEvent: {}
+[10.034507] (-) TimerEvent: {}
+[10.136063] (-) TimerEvent: {}
+[10.194227] (my_cpp_py_pkg) JobEnded: {'identifier': 'my_cpp_py_pkg', 'rc': 0}
+[10.194769] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[01m[K/home/pavitpc/ros2_ws/src/action_tutorials_cpp/src/navigate_to_pose_action_client.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::NavigateToPoseActionClient::cancel_goals()[m[K’:
+[01m[K/home/pavitpc/ros2_ws/src/action_tutorials_cpp/src/navigate_to_pose_action_client.cpp:44:81:[m[K [01;31m[Kerror: [m[K‘[01m[KCancelGoalOptions[m[K’ in ‘[01m[Kclass rclcpp_action::Client<nav2_msgs::action::NavigateToPose>[m[K’ does not name a type
+   44 | s_options = typename rclcpp_action::Client<NavigateToPose>::[01;31m[KCancelGoalOptions[m[K();
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/navigate_to_pose_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+[17.408s] Invoking command in '/home/pavitpc/ros2_ws/build/my_python_package': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_python_package/prefix_override:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pavitpc/ros2_ws/build/my_python_package/build --no-deps install_data
+[20.858s] running develop
+[23.545s] running egg_info
+[23.546s] writing my_python_package.egg-info/PKG-INFO
+[23.550s] writing dependency_links to my_python_package.egg-info/dependency_links.txt
+[23.552s] writing entry points to my_python_package.egg-info/entry_points.txt
+[23.562s] writing requirements to my_python_package.egg-info/requires.txt
+[23.564s] writing top-level names to my_python_package.egg-info/top_level.txt
+[23.568s] reading manifest file 'my_python_package.egg-info/SOURCES.txt'
+[23.568s] writing manifest file 'my_python_package.egg-info/SOURCES.txt'
+[23.571s] running build_ext
+[23.576s] Creating /home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my-python-package.egg-link (link to .)
+[23.576s] Installing my_node script to /home/pavitpc/ros2_ws/install/my_python_package/lib/my_python_package
+[23.576s] 
+[23.577s] Installed /home/pavitpc/ros2_ws/build/my_python_package
+[23.577s] running install_data
+[23.979s] Invoked command in '/home/pavitpc/ros2_ws/build/my_python_package' returned '0': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_python_package/prefix_override:/home/pavitpc/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pavitpc/ros2_ws/build/my_python_package/build --no-deps install_data

@@ -1,0 +1,22 @@
+[18.088s] Invoking command in '/home/pavitpc/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_robot_controller/prefix_override:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pavitpc/ros2_ws/build/my_robot_controller/build install --record /home/pavitpc/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[20.828s] running egg_info
+[20.832s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[20.866s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[20.872s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[20.875s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[20.875s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[20.889s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[20.914s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[20.915s] running build
+[20.916s] running build_py
+[20.920s] running install
+[20.921s] running install_lib
+[20.966s] running install_data
+[20.974s] running install_egg_info
+[21.086s] removing '/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[21.086s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[21.118s] running install_scripts
+[21.290s] Installing circle_node script to /home/pavitpc/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[21.320s] Installing test_node script to /home/pavitpc/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[21.321s] writing list of installed files to '/home/pavitpc/ros2_ws/build/my_robot_controller/install.log'
+[21.647s] Invoked command in '/home/pavitpc/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_robot_controller/prefix_override:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pavitpc/ros2_ws/build/my_robot_controller/build install --record /home/pavitpc/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed

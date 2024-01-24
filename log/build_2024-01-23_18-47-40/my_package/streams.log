@@ -1,0 +1,25 @@
+[2.893s] Invoking command in '/home/pavitpc/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/my_package -- -j4 -l4
+[6.954s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[6.954s] [100%] [32m[1mLinking CXX executable my_node[0m
+[6.954s] [100%] Built target my_node
+[10.843s] Invoked command in '/home/pavitpc/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/my_package -- -j4 -l4
+[11.390s] Invoking command in '/home/pavitpc/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/my_package
+[11.491s] -- Install configuration: ""
+[11.506s] -- Execute custom install script
+[11.509s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/lib/my_package/my_node
+[11.514s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[11.550s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[11.557s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[11.570s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[11.570s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[11.571s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[11.573s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[11.574s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[11.574s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[11.575s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[11.575s] -- Symlinking: /home/pavitpc/ros2_ws/install/my_package/share/my_package/package.dsv
+[11.680s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[11.684s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[11.684s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[11.684s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/my_package/share/my_package/package.xml
+[11.692s] Invoked command in '/home/pavitpc/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pavitpc/ros2_ws/install/my_robot_controller:/home/pavitpc/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/my_package

@@ -1,0 +1,25 @@
+[13.960s] Invoking command in '/home/pavitpc/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_robot_controller/prefix_override:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pavitpc/ros2_ws/build/my_robot_controller/build --no-deps install_data
+[17.098s] running develop
+[19.580s] running egg_info
+[19.586s] creating my_robot_controller.egg-info
+[19.598s] writing my_robot_controller.egg-info/PKG-INFO
+[19.606s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[19.607s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[19.607s] writing requirements to my_robot_controller.egg-info/requires.txt
+[19.609s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[19.609s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[19.609s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[19.610s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[19.617s] running build_ext
+[19.617s] Creating /home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[19.618s] Installing circle_node script to /home/pavitpc/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[19.618s] Installing test_node script to /home/pavitpc/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[19.619s] 
+[19.620s] Installed /home/pavitpc/ros2_ws/build/my_robot_controller
+[19.620s] running install_data
+[19.620s] creating /home/pavitpc/ros2_ws/install/my_robot_controller/share/ament_index
+[19.620s] creating /home/pavitpc/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[19.621s] creating /home/pavitpc/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[19.621s] copying resource/my_robot_controller -> /home/pavitpc/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[19.621s] copying package.xml -> /home/pavitpc/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[20.367s] Invoked command in '/home/pavitpc/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/pavitpc/ros2_ws/build/my_robot_controller/prefix_override:/home/pavitpc/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pavitpc/ros2_ws/build/my_robot_controller/build --no-deps install_data

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pavitpc/ros2_ws/build/action_tutorials_cpp/navigate_to_pose_action_client" "TARGETS" "navigate_to_pose_action_client" "DESTINATION" "lib/action_tutorials_cpp")
