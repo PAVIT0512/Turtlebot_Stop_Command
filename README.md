@@ -19,6 +19,13 @@ To run the node please run the command
   ros2 run action_tutorials_cpp navigate_to_pose_action_client
 The executable has been build in the build folder with the name navigate_to_pose_action_client.
 
+The major Links used during the prompt are:-
+ 1.https://docs.ros.org/en/humble/Tutorials/Intermediate/Writing-an-Action-Server-Client/Cpp.html
+ 2.https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Service-And-Client.html
+ 3.https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
+ 4.https://navigation.ros.org/
+ 5.https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html
+
 
 
    
