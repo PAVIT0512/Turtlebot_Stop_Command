@@ -1,0 +1,29 @@
+[0.870s] Invoking command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[2.449s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[2.576s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/navigate_to_pose_action_client.cpp.o[0m
+[33.067s] [ 50%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[36.770s] [ 50%] Built target action_client
+[37.063s] [100%] Built target navigate_to_pose_action_client
+[37.155s] Invoked command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pavitpc/ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[37.489s] Invoking command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/action_tutorials_cpp
+[37.539s] -- Install configuration: ""
+[37.592s] -- Execute custom install script
+[37.622s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/navigate_to_pose_action_client
+[37.622s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so
+[37.623s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[37.624s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[37.661s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[37.669s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[37.674s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[37.678s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[37.678s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[37.678s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[37.688s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[37.693s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[37.693s] -- Symlinking: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[37.808s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[37.813s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[37.834s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[37.834s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[37.834s] -- Up-to-date symlink: /home/pavitpc/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[37.839s] Invoked command in '/home/pavitpc/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pavitpc/ros2_ws/build/action_tutorials_cpp

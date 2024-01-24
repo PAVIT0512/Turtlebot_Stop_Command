@@ -17,7 +17,7 @@ public:
   using GoalHandleNavigateToPose = rclcpp_action::ClientGoalHandle<NavigateToPose>;
 
   explicit NavigateToPoseActionClient(const rclcpp::NodeOptions &options)
-    : Node("navigate_to_pose_action_client", options)
+    : Node("navigate_to_pose_action_client", options), exit_flag_(false), counter_(0)
   {
     this->client_ptr_ = rclcpp_action::create_client<NavigateToPose>(
       this,
@@ -36,17 +36,36 @@ public:
     {
       RCLCPP_ERROR(this->get_logger(), "Action server not available after waiting");
       rclcpp::shutdown();
+      return;
     }
 
-    RCLCPP_INFO(this->get_logger(),"Stopping the bot");
+    RCLCPP_INFO(this->get_logger(), "Stopping the Bot");
+
+    this->client_ptr_->async_cancel_all_goals();
 
   
-    this->client_ptr_->async_cancel_all_goals();
+    counter_++;
+
+
+    if (counter_ >= 2)  
+    {
+      RCLCPP_INFO(this->get_logger(), "Exit condition met. Shutting down...");
+      rclcpp::shutdown();
+    }
+    else
+    {
+      // Restart the timer
+      this->timer_ = this->create_wall_timer(
+        std::chrono::milliseconds(500),
+        std::bind(&NavigateToPoseActionClient::cancel_goals, this));
+    }
   }
 
 private:
   rclcpp_action::Client<NavigateToPose>::SharedPtr client_ptr_;
   rclcpp::TimerBase::SharedPtr timer_;
+  bool exit_flag_;
+  int counter_;
 };
 }  
 
