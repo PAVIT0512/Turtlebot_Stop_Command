@@ -25,7 +25,7 @@ To run the node please run the command
 <br><br>
 The executable has been built in the **build** folder with the name **navigate_to_pose_action_client** ⚙️..
 <br><br>
-The major Links used during the prompt are:-
+The primary resources consulted for this creation are:-
 <br>
  1.https://docs.ros.org/en/humble/Tutorials/Intermediate/Writing-an-Action-Server-Client/Cpp.html<br>
  2.https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Service-And-Client.html<br>
